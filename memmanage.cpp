@@ -48,7 +48,7 @@ int main()
 	}
 
 	cout << endl;
-	delete [] p;	
+	delete[] p;	
 	return 0;
 }
 
