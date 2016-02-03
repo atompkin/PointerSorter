@@ -1,8 +1,8 @@
 #include <iostream>
 #define COUNTER *((unsigned char*)p)
-#define COUNT *(((unsigned char*)p) + 4)
-#define TEMP *(((unsigned char*)p) + 8)
-#define VAL *(((unsigned char*)p) +12)
+#define COUNT *((int*)(((unsigned char*)p) + 4))
+#define TEMP *((int*)(((unsigned char*)p) + 8))
+#define VAL *((int*)(((unsigned char*)p) +12))
 using namespace std;
 int main()
 {
